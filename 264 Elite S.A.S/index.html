@@ -14,7 +14,7 @@
     <header class="hero">
         <div class="container">
             <nav class="nav">
-                <a href="#" class="nav__items nav__items--cta">Contactame ahora</a>
+                <a href="#" class="nav__items nav__items--cta" id="show-form">Contactame ahora</a>
                 <a href="#" class="nav__items">Quienes somos</a>
                 <a href="#" class="nav__items">Servicios</a>
             </nav>
@@ -25,6 +25,33 @@
                     <h2 class="hero__subtitle">Todo lo que necesitas al alcance de un click</h2>
                     <a href="#" class="hero__cta">Cotiza con nosotros</a>
                 </div>
+                <div class="form-popup" id="popup">
+                    <div class="close-form">&times;</div>
+                    <div class="form">
+                        <h2>Datos de Contacto</h2>
+                        <div class="form-element">
+                            <label for="nombre">Primer Nombre:</label>
+                            <input type="text" id="nombre" placeholder="Nombre">
+                        </div>
+                        <div class="form-element">
+                            <label for="apellido">Primer Apellido:</label>
+                            <input type="text" id="apellido" placeholder="Apellido">
+                        </div>
+                        <div class="form-element">
+                            <label for="num">Número de Contacto:</label>
+                            <input type="text" id="num" placeholder="Número de contacto">
+                        </div>
+                        <div class="form-element">
+                            <label for="ciudad">Ciudad donde reside</label>
+                            <input type="text" id="ciudad" placeholder="Ciudad">
+                        </div>
+                        <div class="form-element">
+                            <button>Enviar</button>
+                        </div>   
+                    </div>
+                    </div>
+                </div>
+                
             </section>
         </div>
 
@@ -165,5 +192,6 @@
     
     
     <script src="https://kit.fontawesome.com/1d2c7e2620.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
